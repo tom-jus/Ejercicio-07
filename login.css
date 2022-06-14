@@ -1,0 +1,169 @@
+
+* {background-color: #161717;}
+h3{color:white}
+
+.contenedor {
+    display: flex;
+    flex-direction:column; 
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botongoogle {
+    background-color:#ea4c89;
+    border-color:  #ea4c89;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+
+.contenedor2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap:10px;
+    
+}
+
+.botongoogle:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.botongoogle picture {
+    background-color: #ea4c89;
+    border-radius: 2px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botongoogle picture img {
+    width: 75%;
+}
+
+.botongoogle span {
+    background-color: #ea4c89;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.botontwitter {
+    color:white;
+    font-weight: bold;
+    background-color: #ea4c89;
+    border:none;
+    border-radius: 5px;
+    width: 40px;
+}
+.botontwitter:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 13px;
+}
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid rgb(161, 161, 161);
+}
+.separador span {
+    color:rgb(161, 161, 161);
+}
+
+.inputs {
+    display: flex;
+    width: 100%;
+    gap:10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+    color:White;
+}
+
+label input {
+    border:none;
+    background-color: #212121;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline:none;
+    font-size: 14pt;
+}
+
+label input.password {
+    padding: 15px 20px;
+    font-size: 10pt;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: 1px solid #212121;
+    box-shadow: 0 0 4px rgb(230, 149, 255);
+}
+
+label input:focus {
+    background-color: #454045;
+    border: 1px solid #212121;
+    box-shadow: 0 0 4px rgb(230, 149, 255);
+    color:white;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox input[type="checkbox"] {
+    width: 20px;
+}
+
+.checkbox span {
+    font-weight: 400;
+}
+
+.boton-cuenta {
+    width: 100%;
+    background-color: #ea4c89;
+    color:white;
+    text-align: center;
+    border:none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 13pt;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.boton-cuenta:hover {
+    opacity: 0.75;
+}
+
+label input::placeholder {
+    color:white;
+}
+
+
